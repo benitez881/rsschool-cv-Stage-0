@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: bisque;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.name {
+}
+.name__text {
+    font-size: 32px;
+    font-weight: bold;
+}
+.contacts {
+    margin-top: 20px;
+}
+.contacts__header {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.contacts__list {
+}
+.about {
+}
+.about__header {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.about__text {
+}
+.skills {
+}
+.skills__header {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.skills__list {
+    padding-left: 40px;
+}
+.code {
+}
+.code__header {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.code__text {
+}
+.code__example {
+}
+.education {
+}
+.education__header {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.education__list {
+}
+.languages {
+}
+.languages__header {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.languages__list {
+}
+li {
+    list-style-type: none;
+}
