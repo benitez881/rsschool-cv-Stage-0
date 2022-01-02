@@ -84,3 +84,8 @@ li {
     width: 200px;
     margin: 0 auto;
 }
+.gh a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
