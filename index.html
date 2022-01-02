@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <div class="name__text">Kostrov Pavel</div>
+        </div>
+        <div class="contacts">
+            <div class="contacts__header">
+                My contacts
+            </div>
+            <ul class="contacts__list">
+                <li>Kherson/Odessa, Ukraine</li>
+                <li>Telegram: <a href="https://t.me/benitzz"></a>benitzz</li>
+                <li>Email: pashakostrov.pk@gmail.com</li>
+            </ul>
+        </div>
+        <div class="about">
+            <div class="about__header">
+                About me
+            </div>
+            <div class="about__text">
+                Hello, I've been studying the frontend since August 2021. I am also a first-year student of the university majoring in software developer.
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skills__header">
+                My Skills
+            </div>
+            <div class="skills__list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JS bacis</li>
+                <li>Git&Github</li>
+                <li>BEM</li>
+                <li>SCSS</li>
+            </div>
+        </div>
+        <div class="code">
+            <div class="code__header">
+                Code example
+            </div>
+            <div class="code__text">
+                Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. For example:<br><br>
+
+                domainName("http://github.com/carbonfive/raygun") == "github" <br>
+                domainName("http://www.zombie-bites.com") == "zombie-bites"<br>
+                domainName("https://www.cnet.com") == "cnet"<br>
+            </div>
+            <div class="code__example">
+                <pre>
+                    function domainName(url){
+                        let res = ''
+                        if(url.includes('//')) {
+                          let urlWithoutSlash = url.slice(url.indexOf('//') + 2)
+                          if(urlWithoutSlash.startsWith('www')) {
+                            let urlWithoutWWW = url.slice(url.indexOf('www') + 4)
+                            res = urlWithoutWWW.substring(0, urlWithoutWWW.indexOf('.'))
+                          } else {
+                            res = urlWithoutSlash.substring(0, urlWithoutSlash.indexOf('.'))}
+                        } else if(url.startsWith('www')) {
+                            let urlWithoutWWW = url.slice(url.indexOf('www') + 4)
+                            res = urlWithoutWWW.substring(0, urlWithoutWWW.indexOf('.'))
+                        } else {
+                          res = url.substring(0, url.indexOf('.'))
+                        }
+                        return res
+                      }
+                </pre>
+            </div>
+        </div>
+        <div class="education">
+            <div class="education__header">
+                Education
+            </div>
+            <div class="education__list">
+                <ol>
+                    <li>Kherson school №1</li>
+                    <li>National University "Odessa Polytechnic"(enrolled in 2021)</li>
+                </ol>
+            </div>
+        </div>
+        <div class="languages">
+            <div class="languages__header">
+                Languages
+            </div>
+            <div class="languages__list">
+                <ul>
+                    <li>Ukrainian(Native)</li>
+                    <li>Russian(Native)</li>
+                    <li>English(A2+/B1)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
