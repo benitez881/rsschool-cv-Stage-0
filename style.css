@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: bisque;
+    background-color: rgb(194, 191, 191);
 }
 .container {
     max-width: 1024px;
@@ -9,14 +9,14 @@ body {
 }
 .name {
 }
-.name__text {
+.name__text h1 {
     font-size: 32px;
     font-weight: bold;
 }
 .contacts {
     margin-top: 20px;
 }
-.contacts__header {
+.contacts__header h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 20px 0;
@@ -25,7 +25,7 @@ body {
 }
 .about {
 }
-.about__header {
+.about__header h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 20px 0;
@@ -34,7 +34,7 @@ body {
 }
 .skills {
 }
-.skills__header {
+.skills__header h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 20px 0;
@@ -44,7 +44,7 @@ body {
 }
 .code {
 }
-.code__header {
+.code__header h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 20px 0;
@@ -55,7 +55,7 @@ body {
 }
 .education {
 }
-.education__header {
+.education__header h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 20px 0;
@@ -64,7 +64,7 @@ body {
 }
 .languages {
 }
-.languages__header {
+.languages__header h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 20px 0;
@@ -73,4 +73,14 @@ body {
 }
 li {
     list-style-type: none;
+}
+.year {
+    font-weight: bold;
+}
+.footer {
+    text-align: center;
+}
+.img {
+    width: 200px;
+    margin: 0 auto;
 }
